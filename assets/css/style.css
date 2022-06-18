@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+.button {
+  flex-basis: 25%;
+  color: #ffffff;
+  font: bolder 4.5em Arial;
+  text-align: center;
+  background: -webkit-linear-gradient(top, #20232b, #272b33);
+  margin: 15px;
+  padding: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.double {
+  flex-basis: 50%;
+  border-radius: 15%;
+}
+
+.display {
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #272b33;
+  font-size: 2em;
+}
+
+.percent,
+.operator,
+.negative,
+.equals {
+  color: red;
+}
+
+.card {
+  background-color: #20232b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  color: slategrey;
+}
+
+@media screen and (max-width: 917px) {
+  .button {
+    padding: 70px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .button {
+    padding: 60px;
+    margin: 10px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .button {
+    padding: 30px;
+    margin: 10px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .button {
+    padding: 17px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .button {
+    padding: 15px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .button {
+    padding: 12px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .button {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .button {
+    padding: 5px;
+    margin: 10px;
+  }
+}
